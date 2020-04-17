@@ -998,3 +998,114 @@ h3 {
   bottom: 0;
   left: 0;
 }
+
+/* header */
+
+/* slider */
+.slider_bg_1 {
+    background-image: url(../images/banner2.png);
+  }
+  
+  .slider_bg_2 {
+    background-image: url(../images/banner1.png);
+  }
+  
+  .slider_area .single_slider {
+    position: relative;
+    z-index: 0;
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  @media (max-width: 767px) {
+    .slider_area .single_slider {
+      height: 500px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider_area .single_slider {
+      height: 620px;
+    }
+  }
+  
+  .slider_area .single_slider.about_banner.overlay::before {
+    opacity: .5;
+  }
+  
+  .slider_area .single_slider .slider_text h3 {
+    color: #FFF;
+    font-family: "Roboto", sans-serif;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 84px;
+    margin-bottom: 54px;
+  }
+  
+  .slider_area .single_slider .slider_text h3 span {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 50px;
+      line-height: 62px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .single_slider .slider_text h3 {
+      font-size: 45px;
+      line-height: 55px;
+    }
+  }
+  
+  .slider_area .single_slider .slider_text span {
+    font-size: 30px;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .slider_area .single_slider .slider_text span::before {
+    position: absolute;
+    background: #fff;
+    width: 50px;
+    height: 2px;
+    content: '';
+    left: -67px;
+    top: 50%;
+    margin-bottom: -1px;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .slider_area .single_slider .slider_text span {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text span {
+      font-size: 16px;
+    }
+  }
+  
+  .slider_area .single_slider .slider_text .video_service_btn > a {
+    margin-right: 15px;
+  }
+  
+  @media (max-width: 767px) {
+    .slider_area .single_slider .slider_text .video_service_btn > a {
+      margin-bottom: 20px;
+    }
+  }
