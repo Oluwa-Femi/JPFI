@@ -1004,6 +1004,7 @@ h3 {
 /* slider */
 .slider_bg_1 {
     background-image: url(../images/banner2.png);
+    width: 100%;
   }
   
   .slider_bg_2 {
@@ -1013,7 +1014,7 @@ h3 {
   .slider_area .single_slider {
     position: relative;
     z-index: 0;
-    height: 900px;
+    height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1021,13 +1022,13 @@ h3 {
   
   @media (max-width: 767px) {
     .slider_area .single_slider {
-      height: 500px;
+      height: 90vh;
     }
   }
   
   @media (min-width: 768px) and (max-width: 991px) {
     .slider_area .single_slider {
-      height: 620px;
+      height: 90vh;
     }
   }
   
@@ -1038,7 +1039,7 @@ h3 {
   .slider_area .single_slider .slider_text h3 {
     color: #FFF;
     font-family: "Roboto", sans-serif;
-    font-size: 55px;
+    font-size: 40px;
     font-weight: 400;
     line-height: 84px;
     margin-bottom: 54px;
@@ -1209,6 +1210,71 @@ h3 {
   font-weight: 400;
   margin-bottom: 44px;
 }
+
+/* service area */
+.service_area {
+  padding-top: 155px;
+  padding-bottom: 130px;
+}
+
+@media (max-width: 767px) {
+  .service_area {
+    padding-bottom: 40px;
+    padding-top: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area {
+    padding-bottom: 50px;
+  }
+}
+
+.service_area .single_service {
+  padding: 48px 35px 45px 35px;
+  border: 2px solid #E8E8E8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 30px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .single_service {
+    padding: 30px 20px;
+  }
+}
+
+.service_area .single_service h3 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #1F1F1F;
+  margin-top: 29px;
+  margin-bottom: 13px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .service_area .single_service h3 {
+    font-size: 22px;
+  }
+}
+
+.service_area .single_service p {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 0;
+}
+
+.service_area .single_service:hover {
+  border: 2px solid #615CFD;
+}
+
 
   /* footer */
 
