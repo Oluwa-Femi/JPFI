@@ -1325,7 +1325,8 @@ h3 {
 }
 
 .portfolio_image_area .single_Portfolio .portfolio_thumb {
-  height: 350px;
+  height: 200px;
+  width: 200px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
