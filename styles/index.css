@@ -1426,6 +1426,22 @@ h3 {
 }
 
 /* SDG area */
+/* partners */
+.Partners {
+  padding-bottom: 5rem;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  /* flex-direction: row; */
+}
+.Partners h3 {
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+
+/* partners */
 
 
   /* footer */
