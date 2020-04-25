@@ -1432,7 +1432,13 @@ h3 {
   flex-direction: column;
   justify-content: space-between;
 }
-.Partners-content {
+.Partners-content h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #615CFD;
+  text-transform: capitalize;
+  margin-bottom: 19px;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 .Partners {
