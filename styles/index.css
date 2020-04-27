@@ -1880,4 +1880,8 @@ h3 {
     border: 1px solid #615CFD;
   }
 
+  .contact-info__icon {
+    padding-right: 5px;
+  }
+
   /* footer */
