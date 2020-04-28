@@ -1780,7 +1780,7 @@ hr {
 	background-size: cover;
 	box-sizing: border-box;
 	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
-	background: linear-gradient(#9400D3, #0fd850, #006400);
+	background: linear-gradient(#0000FF, #0fd850, white);
 }
 
 
@@ -1846,8 +1846,6 @@ a.w3_agile_dribble:hover{
 }
 a.w3_agile_vimeo:hover{
 	color:#1ab7ea;
-}
-    padding: 0;
 }
 ul.agileits_social_list li {
     display: inline-block;
