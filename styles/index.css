@@ -1481,7 +1481,7 @@ h3 {
 }
 
 .breadcam_bg_2 {
-  background-image: url(../img/banner/bradcam_2.png);
+  background-image: url(../images/about-header.jpg);
 }
 
 .breadcam_bg_3 {
@@ -1720,7 +1720,139 @@ h3 {
 }
 /* contact */
 
+/*-- team --*/
+.team{
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2rem;
+}
+.team-content {
+	display: flex;
+	flex-direction: row;
+}
+@media (max-width: 500px) {
+	.team-content {
+		display: flex;
+		flex-direction: column;	
+	}
+}
+.team-content-left{
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 500px) {
+	.team-content-left {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+.team-content-right {
+	padding-top: 1rem;
+	display: flex;
+	flex-direction: column;
+}
+.team-content-right p{
+	line-height: 1.5rem;
+}
+.team-content-subleft{
+	padding-left: 1.1rem;
+}
+.heading-agileinfo {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #615CFD;
+}
+hr {
+	height: 2rem solid #9400D3;
+	color: ;
+}
+.headshot {
+	flex-shrink: 0;
+	margin: 20px;
+	height: calc(150px + 6vw);
+	width: calc(150px + 6vw);
+	border: calc(8px + 0.2vw) solid transparent;
+	border-radius: 5%;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-size: cover;
+	box-sizing: border-box;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(#9400D3, #0fd850, #006400);
+}
 
+
+.w3_agile_team_grids{
+	margin:5em 0 0;
+}
+@media (min-width: 1000px) {
+	.w3_agile_team_grids{
+		margin:5em 0 0;
+		padding-left: 180px;
+	}
+}
+.w3_agile_team_grid h3{
+	font-size:1.2em;
+	color:#212121;
+	margin:1em 0 0;
+}
+.w3_agile_team_grid p{
+	color:#006400;
+	text-transform:uppercase;
+	font-weight:600;
+	margin-bottom: 1em;
+}
+.w3_agile_team_grid:nth-child(2),.w3_agile_team_grid:nth-child(4){
+	margin-top:5em;
+}
+.w3_agile_team_grid ul li{
+	display:inline-block;
+	margin-right:1em;
+}
+.w3_agile_team_grid ul li:last-child{
+	margin:0;
+}
+.w3_agile_team_grid figure {
+	overflow: hidden;
+	position: relative;
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+.agileits_social_list li a{
+    color: #212121;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+}
+a.w3_agile_facebook:hover{
+	color:#3b5998;
+}
+a.agile_twitter:hover{
+	color:#1da1f2;
+}
+a.w3_agile_dribble:hover{
+	color:#ea4c89;
+}
+a.w3_agile_vimeo:hover{
+	color:#1ab7ea;
+}
+    padding: 0;
+}
+ul.agileits_social_list li {
+    display: inline-block;
+}
+/* team */
 
 
 
