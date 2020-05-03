@@ -1854,7 +1854,97 @@ ul.agileits_social_list li {
 
 
 
+/* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area {
+  padding: 160px 0;
+  background-image: url(../img/testmonial/banner.png);
+  position: relative;
+  z-index: 0;
+  background-size: cover;
+  background-position: center center;
+}
 
+/* line 9, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  content: '';
+  background: #1F1F1F;
+  opacity: .6;
+}
+
+@media (max-width: 767px) {
+  /* line 2, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+  .testimonial_area {
+    padding: 50px 0;
+  }
+}
+
+/* line 24, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .single_testmonial p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 35px 0 25px 0;
+}
+
+@media (min-width: 320px) and (max-width: 1500px) {
+  /* line 30, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+  .testimonial_area .single_testmonial p br {
+    display: none;
+  }
+}
+
+/* line 38, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author .thumb {
+  width: 42px;
+  height: 42px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  margin: auto;
+  margin: auto auto 12px auto;
+}
+
+/* line 45, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author h3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 4px;
+  font-family: "Roboto", sans-serif;
+  color: #FFFFFF;
+}
+
+/* line 53, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .single_testmonial .testmonial_author span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+/* line 61, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .owl-carousel .owl-item img {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 65, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .owl-carousel .owl-nav div.owl-next {
+  left: auto;
+  right: 0;
+}
+
+/* line 69, ../../Arafath/CL/December/233. Startup/HTML/scss/_tesmonial.scss */
+.testimonial_area .owl-carousel .owl-nav div {
+  left: 0;
+}
 
 
 
